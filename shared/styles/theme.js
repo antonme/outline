@@ -101,6 +101,16 @@ export const base = {
     desktop: 1025, // targeting devices that are larger than the iPad (which is 1024px in landscape mode)
     desktopLarge: 1600,
   },
+
+  depths: {
+    sidebar: 1000,
+    modalOverlay: 2000,
+    modal: 3000,
+    menu: 4000,
+    toasts: 5000,
+    loadingIndicatorBar: 6000,
+    popover: 9000,
+  },
 };
 
 export const light = {
@@ -112,7 +122,7 @@ export const light = {
   text: colors.almostBlack,
   textSecondary: colors.slateDark,
   textTertiary: colors.slate,
-  placeholder: "#B1BECC",
+  placeholder: "#a2b2c3",
 
   sidebarBackground: colors.warmGrey,
   sidebarItemBackground: colors.black10,
